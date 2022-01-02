@@ -111,3 +111,42 @@ header img:last-child{
     justify-content: center;
     line-height: 1.5em;
 }
+/* This is the Porfolio Section */
+.portfolio h1{
+    display: flex;
+    justify-content: center;
+}
+.pimages{
+    display: flex;
+    justify-content: center;
+}
+.pimages img{
+    width: 16em;
+    margin: 1em;
+}
+.pimages h1{
+    display: none;
+    position: absolute;
+    margin: -6.5em 3.5em;
+    padding: .5em;
+    width: 4em;
+    height: 1em;
+}
+/* .contactus{
+    background: url(resources/c_image.jpg);
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em;
+    color: whitesmoke;
+}
+.contactus input{
+    background: transparent;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+.contactus input::placeholder{
+    color: whitesmoke;
+} */
