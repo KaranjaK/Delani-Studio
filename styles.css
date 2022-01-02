@@ -132,7 +132,8 @@ header img:last-child{
     width: 4em;
     height: 1em;
 }
-/* .contactus{
+/* This is the contact us section */
+.contactus{
     background: url(resources/c_image.jpg);
     background-size: cover;
     height: 70vh;
@@ -142,11 +143,17 @@ header img:last-child{
     padding: 4em;
     color: whitesmoke;
 }
-.contactus input{
+.contactus input, textarea{
     background: transparent;
     border-style: solid;
     border-color: whitesmoke;
 }
-.contactus input::placeholder{
+.contactus input::placeholder, textarea::placeholder{
     color: whitesmoke;
-} */
+}
+.contactus input{
+    margin: 1em;
+}
+.col-xs-8{
+    display: flex;
+}
