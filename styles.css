@@ -66,7 +66,7 @@ header img:last-child{
 }
 /* This will style the services section */
 .services{
-    background: url(resources/s_image.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.7),rgb(0,0,0, 0.7)), url(resources/s_image.jpg);
     background-size: cover;
     color: whitesmoke;
     height: 50vh;
@@ -85,4 +85,29 @@ header img:last-child{
     line-height: 2em;
     margin-top: -1em;
     font-weight: bolder;
+}
+/* This is the what we do Section */
+.doheader{
+    display: flex;
+    justify-content: center;
+}
+.doall{
+    display: flex;
+    justify-content: center;
+}
+.docontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    margin-right: 2em;
+}
+.docontent img{
+    height: 6em;
+    width: 6em;
+}
+.docontent p span{
+    display: flex;
+    justify-content: center;
+    line-height: 1.5em;
 }
