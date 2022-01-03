@@ -133,15 +133,16 @@ header img:last-child{
 }
 .pimages img{
     width: 16em;
-    margin: 1em;
+    margin: 2em;
 }
 .pimages h1{
     display: none;
     position: absolute;
-    margin: -6.5em 3.5em;
-    padding: .5em;
-    width: 4em;
-    height: 1em;
+    margin: -6em .8em;
+    padding: 2.5em 1em;
+    width: 6.7em;
+    height: 6em;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 /* This is the contact us section */
 .contactus{
