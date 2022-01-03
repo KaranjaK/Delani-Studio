@@ -90,27 +90,38 @@ header img:last-child{
 .doheader{
     display: flex;
     justify-content: center;
+    margin-top: 2em;
 }
 .doall{
     display: flex;
     justify-content: center;
+    margin-top: 2em;
 }
 .docontent{
     display: flex;
     flex-direction: column;
     align-items: center;
     font-weight: bolder;
-    margin-right: 2em;
+    width: 30%;   
 }
 .docontent img{
     height: 6em;
     width: 6em;
 }
-.docontent p span{
+.contenthide1, .contenthide2, .contenthide3{
+    display: none;
+}
+.contentsee1, .contentsee2, .contentsee3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.docontent p span, h3, h5{
     display: flex;
     justify-content: center;
     line-height: 1.5em;
 }
+
 /* This is the Porfolio Section */
 .portfolio h1{
     display: flex;
