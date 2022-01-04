@@ -1,171 +1,178 @@
 /* entuire Body styling */
-body{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
 }
 /* The header section styling */
-header{
-    height: 110vh;
-    background: url(resources/h_img.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+header {
+  height: 110vh;
+  background: url(resources/h_img.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: whitesmoke;
 }
-header img:first-child{
-    padding-top: 14em;
-    height: 5em;
-    width: 5em;
+header img:first-child {
+  padding-top: 15em;
 }
-header img:last-child{
-    height: 2.5em;
-    width: 1.5em;
+header img:last-child {
+  padding: 3em 45em 0;
 }
-header h1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 1em;
-    font-weight: 900;
-    font-size: 3em;
+header h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.3em;
+  font-weight: 900;
+  font-size: 3em;
 }
-header h1 span:last-child{
-    padding-top: .6em;
+header h1 span:last-child {
+  padding-top: 0.6em;
 }
-header p{
-    margin-top: -1em;
-    font-weight: bold;
-    font-size: .9em;
+header p {
+  font-weight: bold;
+  font-size: 0.9em;
 }
-header img:last-child{
-    margin-top: 8em;
+header img:last-child {
+  margin-top: 8em;
 }
 /* This will style the About us Section */
-.aboutus{
-    height: 35vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.aboutus {
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.aboutus h1{
-    font-weight: 900;
+.aboutus h1 {
+  font-weight: 900;
 }
-.aboutus p{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 2em;
-    margin-top: -1em;
-    font-weight: bold;
+.aboutus p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2em;
+  margin-top: -1em;
+  font-weight: bold;
 }
 /* This will style the services section */
-.services{
-    background: linear-gradient(rgb(0, 0, 0, 0.7),rgb(0,0,0, 0.7)), url(resources/s_image.jpg);
-    background-size: cover;
-    color: whitesmoke;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.services {
+  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url(resources/s_image.jpg);
+  background-size: cover;
+  color: whitesmoke;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.services h1{
-    padding-top: 3.5em;
-    font-weight: bolder;
+.services h2 {
+  padding-top: 2.7em;
+  font-weight: bolder;
 }
-.services p{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 2em;
-    margin-top: -1em;
-    font-weight: bolder;
+.services p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2em;
+  margin-top: -1em;
+  font-weight: bolder;
 }
 /* This is the what we do Section */
-.doheader{
-    display: flex;
-    justify-content: center;
-    margin-top: 2em;
+.doheader {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
 }
-.doall{
-    display: flex;
-    justify-content: center;
-    margin-top: 2em;
+.doall {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
 }
-.docontent{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: bolder;
-    width: 30%;   
+.docontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bolder;
+  width: 30%;
 }
-.docontent img{
-    height: 6em;
-    width: 6em;
+.docontent img {
+  height: 6em;
+  width: 6em;
 }
-.contenthide1, .contenthide2, .contenthide3{
-    display: none;
+.contenthide1,
+.contenthide2,
+.contenthide3 {
+  display: none;
 }
-.contentsee1, .contentsee2, .contentsee3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.contentsee1,
+.contentsee2,
+.contentsee3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.docontent p span, h3, h5{
-    display: flex;
-    justify-content: center;
-    line-height: 1.5em;
+.docontent p span,
+h3,
+h5 {
+  display: flex;
+  justify-content: center;
+  line-height: 1.5em;
 }
 
 /* This is the Porfolio Section */
-.portfolio h1{
-    display: flex;
-    justify-content: center;
+.portfolio h1 {
+  display: flex;
+  justify-content: center;
 }
-.pimages{
-    display: flex;
-    justify-content: center;
+.pimages {
+  display: flex;
+  justify-content: center;
 }
-.pimages img{
-    width: 16em;
-    margin: 2em;
+.pimages img {
+  width: 16em;
+  margin: 2em;
 }
-.pimages h1{
-    display: none;
-    position: absolute;
-    margin: -6em .8em;
-    padding: 2.5em 1em;
-    width: 6.7em;
-    height: 6em;
-    background-color: rgba(255, 255, 255, 0.8);
+.pimages h1 {
+  display: none;
+  position: absolute;
+  margin: -6em 0.8em;
+  padding: 2.5em 1em;
+  width: 6.7em;
+  height: 6em;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 /* This is the contact us section */
-.contactus{
-    background: url(resources/c_image.jpg);
-    background-size: cover;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 4em;
-    color: whitesmoke;
+.contactus {
+  background: url(resources/c_image.jpg);
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4em;
+  color: whitesmoke;
 }
-.contactus input, textarea{
-    background: transparent;
-    border-style: solid;
-    border-color: whitesmoke;
+.contactus input,
+textarea {
+  background: transparent;
+  border-style: solid;
+  border-color: whitesmoke;
+  color: whitesmoke;
 }
-.contactus input::placeholder, textarea::placeholder{
-    color: whitesmoke;
+.contactus input::placeholder,
+textarea::placeholder {
+  color: whitesmoke;
 }
-.contactus input{
-    margin: 1em;
+.contactus input:focus,
+textarea:focus {
+  color: whitesmoke;
 }
-.col-xs-8{
-    display: flex;
+.contactus input {
+  margin: 1em;
+}
+.col-xs-14 {
+  display: flex;
 }
